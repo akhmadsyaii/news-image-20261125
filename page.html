@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The World in One Day — Wednesday 25 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; }
+  body {
+    font-family: "Liberation Serif", Georgia, "Times New Roman", serif;
+    background: #f4efe3; color: #211d15;
+    font-size: 15px; line-height: 1.2;
+  }
+  .sheet { width: 1024px; height: 1024px; padding: 4px 16px 2px; display: flex; flex-direction: column; gap: 2px; }
+
+  /* ---- masthead ---- */
+  .mast { border-bottom: 4px double #211d15; padding-bottom: 2px; text-align: center; }
+  .mast .over { font-family: "Liberation Sans", Arial, sans-serif; font-size: 15px; letter-spacing: 1px; color: #8c1d18; font-weight: bold; }
+  .mast h1 { font-size: 38px; line-height: 1.02; font-weight: 900; }
+  .mast .under { font-size: 15px; font-style: italic; color: #4a4436; margin-top: 1px; }
+
+  /* ---- market tape ---- */
+  .tape { border: 1.5px solid #211d15; background: #efe7d2; padding: 2px 8px; }
+  .tape .row { display: flex; justify-content: space-between; font-family: "Liberation Sans", Arial, sans-serif; font-size: 15px; }
+  .tape .row + .row { border-top: 1px dashed #a99e83; margin-top: 2px; padding-top: 2px; }
+  .up { color: #1e6b34; } .down { color: #8c1d18; }
+
+  /* ---- lead trio ---- */
+  .leads { display: flex; gap: 8px; }
+  .lead { flex: 1; border: 1.5px solid #211d15; background: #fffdf6; padding: 5px 9px 4px; display: flex; flex-direction: column; }
+  .lead.first { background: #fbeedf; border-width: 2.5px; }
+  .kick { font-family: "Liberation Sans", Arial, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1px; color: #8c1d18; }
+  .lead h2 { font-size: 20px; line-height: 1.1; margin: 2px 0 3px; }
+  .lead p { font-size: 15px; }
+  .art { margin-top: auto; padding-top: 3px; }
+  .art svg { display: block; width: 100%; height: 18px; }
+
+  /* ---- section labels ---- */
+  .seclabel { font-family: "Liberation Sans", Arial, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 2px; background: #211d15; color: #f4efe3; padding: 2px 8px; }
+
+  /* ---- feature grid ---- */
+  .grid4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 5px 8px; }
+  .cell { border-top: 2px solid #211d15; padding-top: 3px; }
+  .cell h3 { font-size: 15px; line-height: 1.2; margin-bottom: 1px; }
+  .cell p { font-size: 15px; }
+
+  /* ---- sport strip ---- */
+  .sport { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px 8px; }
+  .scell { background: #e9e2cf; border: 1px solid #8a8271; padding: 4px 7px; }
+  .scell h3 { font-size: 15px; line-height: 1.2; margin-bottom: 1px; }
+  .scell p { font-size: 15px; }
+
+  /* ---- also band ---- */
+  .also { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px 14px; }
+  .also div { font-size: 15px; padding-left: 10px; position: relative; }
+  .also div::before { content: "▪"; position: absolute; left: 0; color: #8c1d18; }
+
+  /* ---- lower split: map + brief ---- */
+  .lower { display: flex; gap: 9px; flex: 1; min-height: 0; }
+  .mapbox { width: 308px; flex: none; border: 1.5px solid #211d15; background: #e7ecdf; padding: 5px 8px; display: flex; flex-direction: column; }
+  .mapbox h3 { font-family: "Liberation Sans", Arial, sans-serif; font-size: 15px; letter-spacing: 1.5px; margin-bottom: 2px; }
+  .mapbox svg { display: block; width: 100%; height: 104px; }
+  .mapbox .legend { font-size: 15px; margin-top: 3px; line-height: 1.25; }
+  .mapbox .legend b { color: #8c1d18; }
+  .brief { flex: 1; min-width: 0; }
+  .brief h3 { font-family: "Liberation Sans", Arial, sans-serif; font-size: 15px; letter-spacing: 2px; border-bottom: 2px solid #211d15; padding-bottom: 2px; margin-bottom: 4px; }
+  .briefcols { display: flex; gap: 14px; }
+  .briefcols ul { list-style: none; flex: 1; }
+  .briefcols li { font-size: 15px; margin-bottom: 4px; padding-left: 10px; position: relative; }
+  .briefcols li::before { content: "—"; position: absolute; left: 0; color: #8c1d18; }
+
+  /* ---- date check ---- */
+  .datebox { border: 2px solid #8c1d18; background: #fbeedf; padding: 3px 9px; font-size: 15px; }
+  .datebox b { font-family: "Liberation Sans", Arial, sans-serif; letter-spacing: 1px; color: #8c1d18; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <header class="mast">
+    <div class="over">WEDNESDAY 25 NOVEMBER 2026 &#8212; 40 STORIES VERIFIED &#8212; ONE PAGE, NO. 25</div>
+    <h1>The World in One Day</h1>
+    <div class="under">Every story below happened, or was first reported, on Wednesday 25 November 2026</div>
+  </header>
+
+  <div class="tape">
+    <div class="row">
+      <span><b>DOW</b> 50,182.95 <span class="up">+0.33%</span></span>
+      <span><b>S&amp;P 500</b> 7,182.78 <span class="down">&#8722;0.25%</span></span>
+      <span><b>NASDAQ</b> 23,585.80 <span class="down">&#8722;0.62%</span></span>
+      <span><b>RUSSELL</b> 2,704.06 <span class="up">+0.71%</span></span>
+    </div>
+    <div class="row">
+      <span><b>KOSPI</b> 4,697.51 <span class="down">&#8722;6.16%</span></span>
+      <span><b>NIKKEI</b> 57,011.62 <span class="down">&#8722;2.78%</span></span>
+      <span><b>WTI</b> $84.08 <span class="up">+2.47%</span></span>
+      <span><b>GOLD</b> $3,609.20 <span class="up">+0.50%</span></span>
+    </div>
+  </div>
+
+  <div class="leads">
+    <article class="lead first">
+      <div class="kick">LEAD &#8212; STRAIT OF HORMUZ</div>
+      <h2>Two oil tankers hit mines and catch fire</h2>
+      <p>Iran&#8217;s Guard Navy said two tankers hit mines and caught fire on an &#8220;unauthorised route&#8221; early Wednesday. Attacks are near-daily; a third claim is unconfirmed.</p>
+      <div class="art">
+        <svg viewBox="0 0 300 52" preserveAspectRatio="none" aria-hidden="true">
+          <rect x="0" y="40" width="300" height="12" fill="#7fa3b8"/>
+          <rect x="52" y="26" width="190" height="13" fill="#2c2a24"/>
+          <rect x="52" y="18" width="34" height="9" fill="#2c2a24"/>
+          <rect x="200" y="14" width="26" height="13" fill="#2c2a24"/>
+          <path d="M96 26 L104 6 L112 26 Z" fill="#e07b1f"/>
+          <path d="M150 26 L156 2 L164 26 Z" fill="#d94f1e"/>
+          <path d="M214 26 L220 10 L227 26 Z" fill="#e07b1f"/>
+        </svg>
+      </div>
+    </article>
+    <article class="lead">
+      <div class="kick">LEAD &#8212; WALL STREET</div>
+      <h2>Wall Street erases a 1,100-point plunge</h2>
+      <p>Hot inflation (core PCE 3.3%) and tariff news sank stocks &#8212; Nasdaq &#8722;4.6%, Dow &#8722;1,100. Buyers stepped in: the Dow closed up 164, its biggest reversal since 2022.</p>
+      <div class="art">
+        <svg viewBox="0 0 300 52" preserveAspectRatio="none" aria-hidden="true">
+          <rect x="0" y="0" width="300" height="52" fill="#eef2e4"/>
+          <line x1="0" y1="26" x2="300" y2="26" stroke="#b9b39e" stroke-width="1" stroke-dasharray="4 4"/>
+          <polyline points="6,10 50,16 96,44 140,40 186,46 232,22 268,14 292,6" stroke="#8c1d18" stroke-width="3" fill="none"/>
+          <polygon points="292,6 280,6 288,16" fill="#1e6b34"/>
+          <circle cx="96" cy="44" r="4" fill="#8c1d18"/><circle cx="186" cy="46" r="4" fill="#8c1d18"/>
+        </svg>
+      </div>
+    </article>
+    <article class="lead">
+      <div class="kick">LEAD &#8212; SAUDI ARABIA</div>
+      <h2>Houthis claim strike on Saudi refinery</h2>
+      <p>The Houthis said they hit Ras Tanura; the coalition stopped four drones but confirmed no hit. A Riyadh strike hurt 11 a day earlier. WTI $84.08, up 2.47%.</p>
+      <div class="art">
+        <svg viewBox="0 0 300 52" preserveAspectRatio="none" aria-hidden="true">
+          <rect x="0" y="40" width="300" height="12" fill="#d8cdb2"/>
+          <rect x="30" y="16" width="16" height="26" fill="#5a5344"/><rect x="54" y="8" width="16" height="34" fill="#5a5344"/>
+          <rect x="78" y="20" width="16" height="22" fill="#5a5344"/><rect x="102" y="26" width="60" height="16" fill="#3c382e"/>
+          <rect x="180" y="12" width="14" height="30" fill="#5a5344"/><rect x="202" y="22" width="60" height="20" fill="#3c382e"/>
+          <path d="M58 8 L64 -4 L70 8 Z" fill="#d94f1e"/>
+          <path d="M210 22 L216 10 L222 22 Z" fill="#e07b1f"/>
+        </svg>
+      </div>
+    </article>
+  </div>
+
+  <div class="grid4">
+    <div class="cell"><h3>Hamas security chief killed</h3><p>Hamas chief Abuelouf killed with family in a Gaza City strike.</p></div>
+    <div class="cell"><h3>Ukraine hits two refineries</h3><p>Two Rosneft refineries ablaze after drone strikes; 145 downed.</p></div>
+    <div class="cell"><h3>RSF strikes kill 19 in Sudan</h3><p>RSF Damazin strikes killed 19, incl. six women; 20 hurt.</p></div>
+    <div class="cell"><h3>Solomons bars foreign bases</h3><p>Canberra treaty bars any foreign military base on the islands.</p></div>
+    <div class="cell"><h3>US inflation hot, GDP at 4.3%</h3><p>Core PCE 3.3%, Q3 GDP 4.3%; a Dec Fed hike is priced near 97%.</p></div>
+    <div class="cell"><h3>Asian markets rout on AI doubts</h3><p>KOSPI &#8722;6.16%, Nikkei &#8722;2.78%, Taiex ~4.9% as chip stocks crashed.</p></div>
+    <div class="cell"><h3>Nvidia falls 3.9% to $149.30</h3><p>Down again after a 5.9% fall Tue; Nasdaq-100 briefly bearish.</p></div>
+    <div class="cell"><h3>Dell revenue doubles</h3><p>Revenue $54.9bn, up 103%; AI backlog $132.3bn; shares fell ~7%.</p></div>
+    <div class="cell"><h3>Tariffs for 16 economies</h3><p>Duties expected: +20pts on China, ~15% on EU, Japan, S. Korea.</p></div>
+    <div class="cell"><h3>Huawei guilty on 10 counts</h3><p>10 counts guilty: bank fraud, wire fraud, sanctions, trade theft.</p></div>
+    <div class="cell"><h3>First Pakistani in orbit</h3><p>Shenzhou-24 docked 3.5h after launch; first Pakistani aboard.</p></div>
+    <div class="cell"><h3>Pope: COP31 &#8220;troubling&#8221;</h3><p>Pope: COP31 failure &#8220;troubling&#8221; &#8212; first no-deal COP since 2009.</p></div>
+  </div>
+
+  <div class="seclabel">SPORT &#8212; WEDNESDAY NIGHT &#183; AND MORE</div>
+  <div class="sport">
+    <div class="scell"><h3>Liverpool 3&#8211;0 Brugge; Barcelona 4&#8211;1 Sabah</h3><p>Isak twice for Liverpool, Gordon twice for Bar&#231;a; both into the top five.</p></div>
+    <div class="scell"><h3>PSG held 2&#8211;2 by Roma</h3><p>PSG&#8217;s perfect record gone; Man Utd drew 2&#8211;2 at Sporting; Lille beat Bayern 2&#8211;1.</p></div>
+    <div class="scell"><h3>Tatum 41 as Celtics win 131&#8211;116</h3><p>Boston snapped a four-game skid; Mavs 120&#8211;101 Nuggets, Pistons 104&#8211;86 Magic. (Tue.)</p></div>
+    <div class="scell"><h3>Sinner has knee surgery</h3><p>Surgery in Turku; the No. 2 is likely to miss the Australian Open. (Tue.)</p></div>
+    <div class="scell"><h3>College upsets: Louisville, Baylor, TCU</h3><p>Louisville beat Texas Tech, Baylor knocked off Alabama and TCU overcame Miami.</p></div>
+    <div class="scell"><h3>Rams at Packers, Wednesday night</h3><p>Thanksgiving week opens: Rams at Packers, 8pm ET on Netflix. No result yet.</p></div>
+  </div>
+
+  <div class="also">
+    <div><b>Senate panel</b> probes Vance&#8217;s ties to a Venezuelan oil deal; records due 14 Dec.</div>
+    <div><b>Hackers</b> breached an unclassified CIA/ODNI system; no classified data was hit.</div>
+    <div><b>North Korea</b> orders Switzerland&#8217;s Pyongyang office closed; envoy out in 48 hours.</div>
+    <div><b>Trump</b> pardons Thanksgiving turkeys &#8220;Freedom&#8221; and &#8220;Feathers&#8221;.</div>
+    <div><b>Decathlon</b> cyberattack exposes data of 130,000+ customers.</div>
+    <div><b>Anthropic and OpenAI staff</b> fear internal AI models are too powerful to release.</div>
+    <div><b>US officials</b> briefed Congress on Nvidia chip-spy concerns.</div>
+    <div><b>London Museum</b> opens in a Victorian market venue, celebrating &#8220;grit and glitter&#8221;.</div>
+    <div><b>Taiwan comedian</b> answers China&#8217;s anger with punchlines.</div>
+  </div>
+
+  <div class="lower">
+    <div class="mapbox">
+      <h3>WHERE IT HAPPENED</h3>
+      <svg viewBox="0 0 300 168" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <rect x="0" y="0" width="300" height="168" fill="#dfe8d2"/>
+        <path d="M16,40 L52,22 L94,30 L100,56 L78,72 L60,98 L48,90 L30,72 L12,56 Z" fill="#b7c4a4"/>
+        <path d="M62,104 L86,100 L96,126 L82,160 L70,150 L60,122 Z" fill="#b7c4a4"/>
+        <path d="M140,28 L168,22 L178,40 L160,54 L142,46 Z" fill="#b7c4a4"/>
+        <path d="M145,62 L176,58 L191,76 L183,106 L165,126 L152,100 L142,80 Z" fill="#b7c4a4"/>
+        <path d="M180,24 L250,18 L276,44 L262,80 L236,96 L210,86 L194,60 L178,44 Z" fill="#b7c4a4"/>
+        <path d="M244,140 L272,138 L279,152 L258,161 L242,152 Z" fill="#b7c4a4"/>
+        <circle cx="196" cy="66" r="6" fill="#8c1d18"/><circle cx="172" cy="60" r="5" fill="#8c1d18"/>
+        <circle cx="158" cy="44" r="5" fill="#8c1d18"/><circle cx="160" cy="96" r="5" fill="#8c1d18"/>
+        <circle cx="262" cy="148" r="5" fill="#8c1d18"/><circle cx="52" cy="112" r="5" fill="#8c1d18"/>
+        <circle cx="232" cy="104" r="5" fill="#8c1d18"/><circle cx="238" cy="58" r="5" fill="#8c1d18"/>
+      </svg>
+      <div class="legend"><b>&#9679;</b> Hormuz &#183; Gaza &#183; Kyiv &#183; Khartoum &#183; Canberra &#183; Bogot&#225; &#183; Bogor &#183; Beijing</div>
+    </div>
+    <div class="brief">
+      <h3>IN BRIEF</h3>
+      <div class="briefcols">
+        <ul>
+          <li><b>Colombia:</b> ~25 hostages freed in Cartagena raid.</li>
+          <li><b>Bogor mine toll</b> six; ~20 miners still trapped.</li>
+          <li><b>Libya</b> vows revenge for two officers killed.</li>
+          <li><b>Russian war dead</b> put at 490,334 in leaked data.</li>
+          <li><b>Mexico</b> captures &#8220;El Chapo Isidro&#8221; with US drones.</li>
+        </ul>
+        <ul>
+          <li><b>Bangladesh</b> garment wage up 36% to $139/month.</li>
+          <li><b>Bitcoin</b> under $60k; record $4.94bn ETF outflows.</li>
+          <li><b>Australia&#8217;s CPI</b> jumps to 4.9%; a rate hike looms.</li>
+          <li><b>Trump</b> awards the Medal of Freedom to Giuliani.</li>
+          <li><b>Kilmar Abrego Garcia</b> arrives in Spain.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="datebox"><b>DATE CHECK &#8212;</b> Every story on this page happened, or was first reported, on Wednesday 25 November 2026. First reported Wednesday (event Tuesday): Huawei verdict; Giuliani medal; Abrego Garcia in Spain; CIA/ODNI breach; Sinner surgery; NBA &amp; NHL scores. Left out: COP31 collapse (Sun 22 Nov); Tue Champions League ties; Mon night football; the unconfirmed third Hormuz tanker.</div>
+
+</div>
+</body>
+</html>
